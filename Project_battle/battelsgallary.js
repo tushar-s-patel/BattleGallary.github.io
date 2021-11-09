@@ -3419,43 +3419,43 @@ battels[11]=['https://cssbattle.dev/battle/14',
 }];
 battels[12]=['https://cssbattle.dev/battle/15',
 {
-  src:`<div id="one"></div>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div id="bx"></div>
-  <style>
-    body{
-      margin:0px;
-      padding:0px;
-      background:#191919;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-    }
-    div{
-      height:40px;
-      width:40px;
-      margin-top:122px;
-      margin-right:2px;
-      border-radius:100%;
-      border:20px solid #8F8F8F;
-    }
-    #one{
-      border-color:#714B67;
-    }
-    #bx{
-      height:70px;
-      background:#8F8F8F;
-      width:20;
-      border:0px;
-      border-radius:10px;
-      position:absolute;
-      left:178;
-      top:-20;
-      
-    }
-  </style>`
+  src:`<p id="one"></p>
+<p></p>
+<p ></p>
+<p ></p>
+<div></div>
+<style>
+  body{
+    margin:0px;
+    padding:0px;
+    background:#191919;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100%
+  }
+  p{
+    height:40px;
+    width:40px;
+    margin-top:40px;
+    margin-right:2px;
+    border-radius:100%;
+    border:20px solid #8F8F8F;
+  }
+  #one{
+    border-color:#714B67;
+  }
+  div{
+    height:70px;
+    background:#8F8F8F;
+    width:20px;
+    border-radius:10px;
+    position:absolute;
+    left:178;
+    top:102
+    
+  }
+</style>`
 },
 {
   src:`<div>
