@@ -3835,6 +3835,7 @@ function chnge(divid) {
      c=parseInt(c);
      b=parseInt(b);
      abl[0].setAttribute('href',`${battels[c][0]}`);
+     abl[1].setAttribute('href',`${battels[c][0]}`);
      let hdname=document.getElementById('name');
      hdname.innerText=`#c${c+1}b${b}`;
      clr=document.getElementById(`cdiv${c}`).style.color;
