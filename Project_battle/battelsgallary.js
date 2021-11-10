@@ -1401,86 +1401,78 @@ battels[5]=[
     </style>`
   },
   {
-    src:`<div class="h" id="h1"></div>
-    <div class="h" id="h1"></div>
-    <div class="e" id="e1"></div>
-    <div class="e" id="e2"></div>
-    <div id="m"></div>
-    <div id="f"></div>
-    <style>
-      body{
-        margin:0px;
-        padding:0px;
-        background:#FE5F55;
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        height:100%;
-      }
-      .h{
-        width:100px;
-        height:100px;
-        background:#FFF1C1;
-        border-radius:50%;
-        position:relative;
-        top:-100;
-      }
-      .e{
-        width:60px;
-        height:60px;
-        position:absolute;
-        background:#FFF1C1;
-        border-radius:50%;
-        top:140;
-        left:120;
-      }
-      #e2{
-        left:220;
-      }
-      #m{
-        width:40px;
-        height:10px;
-        border-radius:10px;
-        position:absolute;
-        background:#FFF1C1;
-        top:220px;
-      }
-      #f{
-        width:200px;
-        position:absolute;
-        height:200px;
-        background:transparent;
-        border :200px solid #293462;
-        border-radius:300px 300px 250px 250px 
-      }
-    </style>`
+    src:` <div class="b" id="b1"></div>
+<div class="b" id="b2"></div>
+<style>
+  body{
+    margin:0px;
+    padding:0px;
+    background:#6592CF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+  }
+  .b{
+    height:180px;
+    width:40px;
+    border:30px solid #243D83;
+    position:relative;
+  }
+    #b1{
+      border-left:0px;
+    border-radius:0px 80px 80px 0px;
+      left:15px;
+  }
+  #b2{
+     border-right:0px;
+    border-radius:80px 0px 0px 80px;
+    right:15px;
+  }
+  
+</style> `
   },
   {
-    src:`<div id="a"><div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div></div>
-    <style>
-      body{
-        margin:0px;
-        padding:0px;
-        background:#1A4341;
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        height:100%;
-      }
-      #a{
-        height:180px;
-        width:150px;
-        background:#F3AC3C;
-         display:flex;
-        flex-direction:column;;
-        justify-content:space-evenly;
-      }
-      .p{
-        width:150px;
-        height:20px;
-        background:#1A4341;
-      }
-    </style>
+    src:`<div class="b" id="b1"></div><div id="a"><div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div></div><div class="b" id="b2"></div>
+<style>
+  body{
+    margin:0px;
+    padding:0px;
+    background:#1A4341;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+  }
+  #a{
+    height:180px;
+    width:155px;
+    background:#F3AC3C;
+     display:flex;
+    flex-direction:column;;
+    justify-content:space-evenly;
+  }
+  .p{
+    width:155px;
+    height:20px;
+    background:#1A4341;
+  }
+  .b{
+    height:300px;
+    border-radius:0px 300px 300px 0px;
+    position:relative;
+  }
+  #b1{
+    border-right:300px solid #1A4341;
+    left:29;
+  }
+  #b2{
+    border-left:300px solid #1A4341;
+    border-radius:300px 0px 0px 300px;
+    right:29
+  }
+</style>
+
     `
   }
 ];
