@@ -6,5 +6,5 @@ and their challenges will polish your concepts and force you to learn some new t
 
 This project is the Gallery of the challenges that i have completed thier with good points
 you can find  my submitted code to the respective challenges their
-***[You can visit page](https://tushar-s-patel.github.io/VisualizeSorting.github.io/Project_sort/)***
+***[You can visit page](https://tushar-s-patel.github.io/BattleGallary.github.io/Project_battle/)***
 the page is responsive to all screen size
